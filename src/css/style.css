@@ -1,0 +1,43 @@
+/* f */
+html {
+    background-color: var(--html-color);font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-color);
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    text-align: center;
+}
+
+
+.info .title {
+    font-weight: 700;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.info .description {
+    color: var(--span-color);
+    font-weight: 400;
+    font-size: 13px;
+}
